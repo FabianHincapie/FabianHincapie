@@ -1,6 +1,6 @@
 # Hola, soy Fabian Hincapié 👋
 
-Desarrollador Full Stack y Analista de Datos con experiencia en construcción de aplicaciones web y móviles, pipelines de datos y dashboards de inteligencia de negocios. Me apasiona transformar datos en decisiones y código en productos funcionales.
+Desarrollador Full Stack y Analista de Datos con experiencia en construcción de aplicaciones web y móviles, pipelines ETL, automatización de datos y dashboards de inteligencia de negocios. Me apasiona transformar datos en decisiones y código en productos funcionales.
 
 ---
 
@@ -17,19 +17,25 @@ Desarrollador Full Stack y Analista de Datos con experiencia en construcción de
 **Backend**
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 
 **Bases de datos**
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat&logo=sqlite&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
 
 **Data & BI**
+![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
 
 **DevOps & Herramientas**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
@@ -45,17 +51,25 @@ Desarrollador Full Stack y Analista de Datos con experiencia en construcción de
 Aplicación móvil de gestión de tareas con frontend en Ionic/Angular y backend REST en Node.js conectado a SQL Server. Incluye categorías, feature flags con Firebase Remote Config y compilación APK para Android.
 `Ionic` `Angular` `Node.js` `SQL Server` `Cordova`
 
+### 🏨 [FODUN Reservas — ASP.NET Core MVC](https://github.com/FabianHincapie/FODUN.Reservas)
+Sistema de reservas en línea para sedes recreativas y apartamentos. Arquitectura en capas (BLL/DAL/Entities/Web), Entity Framework Core 8, cálculo de tarifas por temporada, confirmación por correo SMTP y gestión de disponibilidad por fechas.
+`ASP.NET Core 8` `C#` `Entity Framework` `SQL Server` `Bootstrap`
+
+### 🔄 [ETL con Apache Airflow + Docker](https://github.com/FabianHincapie/etl-airflow-ventas)
+Pipeline ETL orquestado con Airflow y Docker. Extrae datos de una API REST, transforma con Pandas y carga en SQLite/PostgreSQL. DAG con 4 pasos: Extract → Transform → Load → Validate.
+`Python` `Apache Airflow` `Docker` `Pandas` `PostgreSQL` `SQLite`
+
+### 📊 [Automatización ETL de Ventas — EMI](https://github.com/FabianHincapie/automatizacion-emi)
+Script Python para limpiar y cargar datos de ventas desde Excel a MySQL. Normaliza precios, fechas y duplicados, prioriza registros por estado y usa `ON DUPLICATE KEY UPDATE` para carga incremental.
+`Python` `Pandas` `MySQL` `OpenPyXL`
+
+### 🏢 [Scrappi App — Control de Acceso de Personal](https://github.com/FabianHincapie/Scrappi-app)
+Sistema remoto de control de acceso y permanencia de personal (inSitu). Arquitectura full stack con backend en Spring Boot + PostgreSQL y frontend en Angular.
+`Java` `Spring Boot` `Angular` `PostgreSQL` `TypeScript`
+
 ### 🎫 [Sistema de Gestión de Incidencias](https://github.com/FabianHincapie/Aplicaci-n-Gesti-n-Incidencias)
 Sistema web para gestión de tickets de soporte POS con arquitectura containerizada.
 `React` `Node.js` `PostgreSQL` `Docker`
-
-### 🏪 [Tienda Virtual](https://github.com/FabianHincapie/Tienda-Virtual)
-Tienda virtual de tecnología con catálogo de productos y carrito de compras.
-`JavaScript`
-
-### 🔐 [Módulo de Ofertas Dinámicas](https://github.com/FabianHincapie/Modulo-ofertas)
-Modernización de módulo de ofertas con stack moderno.
-`TypeScript`
 
 ---
 
